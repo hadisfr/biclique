@@ -1,0 +1,9 @@
+Update 3/19/2007:
+
+- Changed declarations of iterators by adding typename keyword (gcc 4).
+- g++ 4.1.2 Linux Debian 4.1.1-21
+
+Tested: (with  warnings... but the program still works)
+g++ 2.95.3 SunOS 5.9 sun4u sparc
+g++ 3.2.3  Linux 2.4.21-18
+g++ 3.3	   MacOSX 10.3.4 Darwin 7.4.1 
