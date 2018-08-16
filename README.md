@@ -1,11 +1,3 @@
-<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
-<html>
-<head>
-<title>Maximal Biclique Algorithm Implementation.</title>
-</head>
-
-<body alink="#ff0000" bgcolor="#ffffcc" link="#0000ee" text="#000000" vlink="#551a8b">
-
 <h2>Maximal Biclique Enumeration</h2>
 
 <ul>
@@ -20,7 +12,7 @@ Files and usages:
 <ul><p>
 
 <li>
-<a href="max_biclique.zip">max_biclique.zip</a>: The archive package of necessary source files 
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/max_biclique.zip">max_biclique.zip</a>: The archive package of necessary source files 
 and some additional test data file.
 </li><p>
 
@@ -48,9 +40,9 @@ For Visual Studio, please switch to the
 simple_biclique2_MS.h header file.</li><p>
 
 <li>
-<a href="sbtest.linux">sbtest.linux</a>, 
-<a href="sbtest.osx">sbtest.osx</a>,
-<a href="sbtest.sun">sbtest.sun</a>: These are pre-compiled binaries for indicated platforms.
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/sbtest.linux">sbtest.linux</a>, 
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/sbtest.osx">sbtest.osx</a>,
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/sbtest.sun">sbtest.sun</a>: These are pre-compiled binaries for indicated platforms.
 </li><p>
 
 <li>
@@ -84,8 +76,8 @@ in a text file.
 <p>
 
 <li>
-<a href="n400-x150-d80.biclique">n400-x150-d80.biclique</a>, 
-<a href="n400-x150-d80.size">n400-x150-d80.size</a>:
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/n400-x150-d80.biclique">n400-x150-d80.biclique</a>, 
+<a href="http://genome.cs.iastate.edu/supertree/download/biclique/n400-x150-d80.size">n400-x150-d80.size</a>:
 The output of the above input bipartite graph file. The purpose of providing
 these files is  for verification. Please note that the generated
 n400-x150-d80.biclique file has size of 18MB, and for this reason, the
@@ -150,4 +142,3 @@ Contact: The content is maintained by Wen-Chieh Chang (wcchang@iastate.edu).
 </ul>
 
 <hr width="100%">-<i>Last Update: 2004/12/09</i>
-</body></html>

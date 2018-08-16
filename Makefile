@@ -3,7 +3,7 @@ all: sbtest_ii.cpp bigraph2.h
 
 zip:
 	cd .. && zip -u max_biclique.zip \
-biclique/README.html \
+biclique/README.md \
 biclique/bigraph2.h \
 biclique/bigraph2_MS.h \
 biclique/simple_timer.h \
