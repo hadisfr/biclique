@@ -90,7 +90,7 @@ public:
   size_t r_size() const { return R_Table.size(); }
 
   //size_t mica(char *, ostream &);	// save into file, log to stream.
-  size_t mica(ostream &, ostream &, ostream &);	
+  size_t mica(ostream &, ostream &, ostream & = cout);	
   // use stream to output result...
   // first: bicliq, second: size, third: normal output
   size_t remove_bicliq(const set<L_Type> &, const set<R_Type> &);
@@ -186,7 +186,7 @@ size_t SimpleBigraph<L_Type, R_Type>::read_nexus(char * filename)
 // .....
 template <class L_Type, class R_Type>
 size_t SimpleBigraph<L_Type, R_Type>::
-mica(ostream& bicliq_out, ostream& size_out, ostream & OS = cout)
+mica(ostream& bicliq_out, ostream& size_out, ostream & OS)
 {
   // here we focus on R(B) to represent a biclique.
 
