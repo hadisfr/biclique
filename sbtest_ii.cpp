@@ -12,9 +12,9 @@ typedef int RT;		// type of right column.
 int main(int argc, char ** argv)
 {
   if (argc != 4) {
-    cout << "Usage: " << argv[0] 
+    cerr << "Usage: " << argv[0] 
 	 << " <bigraph file> <biclique file> <size dist file>" << endl;
-    return 0;
+    return 2;
   }
 
   // change the type here according to the input file.
@@ -23,8 +23,8 @@ int main(int argc, char ** argv)
   ofstream bicliq_fs(argv[2]), size_fs(argv[3]);
 
   if (!bicliq_fs || !size_fs) {
-    cout << "Error output files!" << endl;
-    return 0;
+    cerr << "Error output files!" << endl;
+    return 1;
   }
 
   Timer T;
