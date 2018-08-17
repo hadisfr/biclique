@@ -1,3 +1,5 @@
+[![Travis (.org)](https://img.shields.io/travis/hadisfr/biclique.svg?style=flat-square)](https://travis-ci.org/hadisfr/biclique/)
+
 <h2>Maximal Biclique Enumeration</h2>
 
 <ul>

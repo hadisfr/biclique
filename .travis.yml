@@ -1,0 +1,17 @@
+before_install: 
+  - "eval \"${MATRIX_EVAL}\""
+language: cpp
+matrix: 
+  include: 
+    - 
+      env: 
+        - "MATRIX_EVAL=\"TESTENV=build && CC=gcc && CXX=g++\""
+      os: linux
+      script: 
+        - make
+    - 
+      env: 
+        - "MATRIX_EVAL=\"TESTENV=build && brew install gcc &&  CC=gcc-7 && CXX=g++-7\""
+      os: osx
+      script: 
+        - make
