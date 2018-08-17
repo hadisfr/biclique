@@ -11,7 +11,7 @@ matrix:
         - make
     - 
       env: 
-        - "MATRIX_EVAL=\"TESTENV=build && brew install gcc &&  CC=gcc-7 && CXX=g++-7\""
+        - "MATRIX_EVAL=\"TESTENV=build && CC=gcc && CXX=g++\""
       os: osx
       script: 
         - make
